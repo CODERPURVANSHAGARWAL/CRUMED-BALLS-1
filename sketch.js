@@ -1,6 +1,7 @@
 var log1,log2,log3;
 var ground;
 var ball;
+var bin
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -8,7 +9,7 @@ const Body = Matter.Body;
 
 function preload()
 {
-	
+	bin=loadImage("dustbingreen.png")
 }
 
 function setup() {
@@ -38,7 +39,7 @@ function draw() {
   log3.display();
   ground.display();
   ball.display();
-
+  
 
 
 }
